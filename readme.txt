@@ -12,7 +12,7 @@ A hero block that you can use on your FSE template. It adapts to the current pag
 
 The purpose of this block is to be able to create a single template for posts/pages, with a hero banner that changes based on the post/page being displayed.
 
-Also work on term(category, tac, etc) pages and archive pages.
+Also work on term(category, tag, etc) pages and archive pages.
 
 Elements:
 
