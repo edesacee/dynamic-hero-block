@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-dynamic-hero-block {
+    .inner {
+    	max-width: 100%;
+    }
+    .dphb-group {
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center; 
+     	align-items: flex-start;   
+    }
+
+}
+
+.image-picker-container img {
+	max-width : 100%;
+}
+.image-picker-container .link {
+	margin-left: 10px;
+}

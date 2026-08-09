@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "create-block/dynamic-hero-block",
+  "version": "0.1.0",
+  "title": "Dynamic Hero Block",
+  "category": "design",
+  "icon": "smiley",
+  "description": "Displays a page hero section with the background based on the type of page being renderer. For posts, it will show the featured image. For regular pages, it will diplay the background image set on the individual page. Recommended inner blocks are Dynamic Hero Title and Dynamic Hero Text.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "spacing": {
+      "padding": false,
+      "margin": true
+    }
+  },
+  "textdomain": "dynamic-page-hero-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js",
+  "attributes": {
+    "style": {
+      "type": "object",
+      "default": {
+        "dimensions": {
+          "minHeight": "400px"
+        }
+      }
+    },
+    "widthNum": {
+      "type": "number",
+      "default": 1250
+    },
+    "widthUnit": {
+      "type": "string",
+      "default": "px"
+    },
+    "gradient": {
+      "type": "string",
+      "default": "linear-gradient(270deg,rgba(237,237,237,0.31) 0%,rgb(255,255,255) 100%)"
+    },
+    "mediaId": {
+      "type": "number",
+      "default": 0
+    },
+    "mediaUrl": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

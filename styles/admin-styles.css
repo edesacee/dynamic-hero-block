@@ -1,0 +1,11 @@
+#dphb-hero-settings label {
+	display: block;
+    margin: 20px 0 5px;
+}
+#dphb-hero-settings textarea {
+	width: 100%;
+	min-height: 150px;
+}
+#dphb-hero-settings input#bg_image {
+	width: 130px;
+}

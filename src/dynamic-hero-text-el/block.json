@@ -1,0 +1,53 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/dynamic-hero-text-el",
+	"version": "0.1.0",
+	"title": "Dynamic Hero Text Element",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Displays the page subtext, post excerpt, or term name based on the type of page being rendered.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"dimensions": {
+			"height": false,
+			"margin": true
+		},
+		"color": {
+			"text": true,
+			"background": false,
+			"gradients": false,			
+			"link": true
+		},
+		"spacing": {
+			"margin": false,
+			"padding": false,
+			"blockGap": false
+		},
+		"typography": {
+			"fontFamily": true,			
+			"fontSize": true,
+			"lineHeight": true,
+			"letterSpacing": true,			
+			"fontWeight": true,
+			"fontStyle": true,
+			"textTransform": true,
+			"textDecoration": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontStyle": true,
+			"__experimentalFontWeight": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalTextTransform": true
+		}  	
+	},
+	"textdomain": "dynamic-page-hero-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"alignment": { "type": "string", "default": "left" }  
+	}		
+}
