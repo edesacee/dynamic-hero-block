@@ -1,8 +1,6 @@
 <?php
 
-namespace dphb;
-
-class Hero_Metabox extends MetaBox {
+class Hero_Metabox extends DHB\Flowy\MetaBox {
     protected function _showForm($post) {
         $post_id = $post->ID;
 

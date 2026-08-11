@@ -1,0 +1,49 @@
+{
+    "name": "edesacee/dynamic-hero-block",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/edesacee/flowy-core.git",
+            "options": {
+                "symlink": false
+            }            
+        }
+    ],    
+    "require": {
+        "edesacee/flowy-core": "^1.0.2"
+    },
+    "require-dev": {
+        "brianhenryie/strauss": "^0.14"
+    },
+    "config": {
+        "allow-plugins": {
+            "brianhenryie/strauss": true
+        }     
+    },
+    "extra": {
+        "strauss": {
+            "target_directory": "app/vendor",
+            "namespace_prefix": "DHB\\",
+            "classmap_prefix": "DHB",
+            "packages": [
+                "edesacee/flowy-core"
+            ]
+        }
+    },  
+    "scripts": {
+        "prep-app": [
+            "node prep-flowy-core.js"
+        ],
+        "strauss": [
+            "vendor/bin/strauss"
+        ],                
+        "post-install-cmd": [
+            "vendor/bin/strauss",
+            "@minify-and-prep-js"
+        ],
+        "post-update-cmd": [
+            "vendor/bin/strauss",
+            "@prep-app"
+        ]
+    }
+}

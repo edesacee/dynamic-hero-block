@@ -18,9 +18,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-include_once('core/metabox.php');
-include_once('core/form.php');
-include_once('core/main.php');
+if ( file_exists( __DIR__ . '/app/vendor/autoload.php' ) ) {
+    require_once __DIR__ . '/app/vendor/autoload.php';
+}
+
+$my_base_framework = new \DHB\Flowy\Main(__FILE__, array());
 
 include_once('includes/main.php');
 include_once('includes/hero-form.php');

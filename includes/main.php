@@ -4,7 +4,7 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
 
-class DPHB_Main extends dphb\Main {
+class DPHB_Main extends DHB\Flowy\Main {
 
     public function __construct($file, $options = array()) {
 		$class_name = get_class();
@@ -13,7 +13,7 @@ class DPHB_Main extends dphb\Main {
 
 		add_action('admin_enqueue_scripts', array($class_name , '__adminScripts'));
 
-		new dphb\Hero_MetaBox('dphb-hero-settings', esc_html__('Dynamic Hero', 'dynhero'), array('page'), 'side', 'high');
+		new Hero_MetaBox('dphb-hero-settings', esc_html__('Dynamic Hero', 'dynhero'), array('page'), 'side', 'high');
 	} //func:__construct
 
 	public static function __adminScripts() {

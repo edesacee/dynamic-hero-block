@@ -1,8 +1,6 @@
 <?php
 
-namespace dphb;
-
-class Hero_Form extends Form {
+class Hero_Form extends DHB\Flowy\Form {
     protected function showFormElements() {
         $allowed_tags = self::__getAllowedTagsForFormField();
         echo wp_kses($this->getFormElements(), $allowed_tags);
