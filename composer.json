@@ -10,7 +10,7 @@
         }
     ],    
     "require": {
-        "edesacee/flowy-core": "^1.0.2"
+        "edesacee/flowy-core": "dev-main"
     },
     "require-dev": {
         "brianhenryie/strauss": "^0.14"
@@ -23,6 +23,7 @@
     "extra": {
         "strauss": {
             "target_directory": "app/vendor",
+            "exclude_git_files": true,
             "namespace_prefix": "DHB\\",
             "classmap_prefix": "DHB",
             "packages": [

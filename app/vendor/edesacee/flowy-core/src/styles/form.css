@@ -1,0 +1,202 @@
+.flowy-ns .fas.rotate {
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.flowy-ns .fas.rotate:hover {
+    opacity: .7;
+}
+.flowy-ns .msg {
+    font-size: 15px;
+    font-style: italic;
+    margin: 15px 0 0;
+}
+.flowy-ns .std-form-line {
+    padding: 7px 0;
+}
+.flowy-ns .file-upload-preview {
+    text-align: left;
+}
+.flowy-ns .std-form-line > label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 120px;
+}
+.flowy-ns .grp {
+    overflow: hidden;
+    clear: both;
+    display: inline-block;
+    vertical-align: middle;            
+}
+.flowy-ns .std-form-line .std-input {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.flowy-ns .field-upload .std-input {
+    position: absolute;
+    opacity: 0;
+}        
+.flowy-ns .std-form-line.half {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.flowy-ns .std-form-line .error {
+              
+}
+.flowy-ns .std-form-line .error.active {
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    display: inline-block;
+    height: 20px;
+    margin-left: 3px;
+    vertical-align: middle;
+    width: 20px;         
+}  
+.flowy-ns .std-form-line .error.check {
+
+}     
+.flowy-ns .std-form-line .grp .uploader {
+    width: 100%;
+    position: relative;
+}
+.flowy-ns .std-form-line .grp .uploader input[type="button"] {
+    position: absolute;
+    right: 1px;
+    top: 0px;
+}           
+.flowy-ns .std-form-line .grp .uploader input[type="text"] {
+    padding-right: 70px;
+}                   
+.flowy-ns .std-form-line.repeater-field .grp  input[type="text"] {
+    margin: 2px 0;
+}
+.flowy-ns .grp {
+    background: transparent;
+    padding: 2px 3px;
+    margin-bottom: 2px;
+}
+.flowy-ns #buttons {
+    padding: 2px 3px;            
+}
+.flowy-ns .hide-field {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+.flowy-ns div[class^="repeater-item"] {
+    border-bottom: dashed #ccc 1px !important;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+.flowy-ns div[class^="repeater-item"]:last-child {
+    border-bottom: 0!important;
+    margin-bottom: 0;
+}
+.flowy-ns .radio-field {
+    display: inline-block;
+    width: 25%;
+}
+.flowy-ns .radio-field input{
+    margin-right: 5px;
+}
+.flowy-ns .std-form-line input[type="file"] {
+    width: 90px;
+}
+.flowy-ns .std-form-line .clear {
+    text-transform: none;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: tahoma;
+    border: solid #000 1px !important;
+    padding: 1px 7px !important;
+    vertical-align: middle;
+    background: none !important;
+    border: 0 !important;
+    color: #444 !important;            
+}
+.flowy-ns .std-form-line .upload-btn {
+    background: #fff!important;
+    color: #444!important;
+    border: solid #444 1px!important;
+    cursor: context-menu;            
+}
+.flowy-ns .std-form-line .clear i {
+    border: solid #444 1px;
+    border-radius: 9px;
+    padding: 2px 3px;
+    font-size: 8px;
+    vertical-align: middle;
+}
+.flowy-ns .field-toprightbottomleft .grp > span {
+    width: 47px;
+    display: inline-block;
+    float: left;
+}
+.flowy-ns .field-toprightbottomleft .grp > span > em {
+    display: block;
+    font-size: 7px;
+    font-style: normal;
+    text-align: center;
+    padding-top: 1px;
+    padding-right: 5px;
+}
+.flowy-ns .field-cssborder .slider {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+    width: 94px;
+    height: 7px;
+    background: #c5c5c5;    
+}
+.field-cssborder > label span {
+    border: dotted #ccc 1px;
+    border-radius: 3px;
+    padding: 2px 3px;
+    margin: 0 2px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.field-cssborder > label span:first-child {
+    margin-left: 10px;
+}
+.flowy-ns .field-cssborder .slider .ui-slider-handle {
+    width: 7px;
+    height: 15px;
+    margin-left: -1px;
+}
+.flowy-ns .field-cssborder .for-slider {
+    width: 37px;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: solid #ccc 1px;
+    text-align: center;
+    height: 26px;    
+}
+.field-cssborder > label span {
+    /*display: none;*/
+}
+.field-cssborder > label span.active {
+    border-style: solid;
+    border-color: #000;
+    background-color: #ccc;
+}
+.field-cssborder .border-opts {
+    display: none;
+}
+.field-cssborder .border-opts.active {
+    display: block;
+}
+.field-slider > label > select.unit {
+    float: right;
+    font-size: 10px;
+    padding: 0 3px;
+    height: 15px!important;
+    border-radius: 4px!important;
+}
