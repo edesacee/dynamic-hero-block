@@ -6,14 +6,20 @@ Stable tag:        0.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+A hero block that you can use on your FSE template. It adapts to the current page being displayed.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+The purpose of this block is to be able to create a single template for posts/pages, with a hero banner that changes based on the post/page being displayed.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+Also work on term(category, tag, etc) pages and archive pages.
+
+Elements:
+
+Title - the post's title/ page's title
+Text - the post's excerpt/ page's text (set Dynamic Hero Section)
+Background Image - post's featured image/ page's hero image (set Dynamic Hero Section)
+
 
 == Installation ==
 
@@ -21,35 +27,13 @@ This section describes how to install the plugin and get it working.
 
 e.g.
 
-1. Upload the plugin files to the `/wp-content/plugins/dynamic-page-hero-block` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
-
-== Frequently Asked Questions ==
-
-= A question that someone might have =
-
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
-
-== Screenshots ==
-
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Upload the plugin files to the `/wp-content/plugins/dynamic-hero-block` directory, or install the plugin through the WordPress plugins screen directly.
+2. Activate the plugin through the 'Plugins' screen in WordPress
+3. Once activated, you can now use the Dynamic Hero block on your site editor.
 
 == Changelog ==
 
-= 0.1.0 =
+= 1.0.0 =
 * Release
 
-== Arbitrary section ==
 
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
