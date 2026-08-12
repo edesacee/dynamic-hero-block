@@ -53,7 +53,7 @@ return array(
 			),
 			'mediaUrl' => array(
 				'type' => 'string',
-				'default' => ''
+				'default' => '/wp-content/plugins/dynamic-hero-block/images/def-bg.webp'
 			)
 		)
 	),

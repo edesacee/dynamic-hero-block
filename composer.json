@@ -13,7 +13,8 @@
         "edesacee/flowy-core": "dev-main"
     },
     "require-dev": {
-        "brianhenryie/strauss": "^0.14"
+        "brianhenryie/strauss": "^0.14",
+        "phpunit/phpunit": "^13"
     },
     "config": {
         "allow-plugins": {

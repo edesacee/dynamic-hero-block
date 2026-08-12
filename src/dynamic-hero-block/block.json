@@ -34,6 +34,6 @@
 		"widthUnit": { "type": "string", "default": "px" },
 		"gradient": { "type": "string", "default": "linear-gradient(270deg,rgba(237,237,237,0.31) 0%,rgb(255,255,255) 100%)" },
 		"mediaId": { "type": "number", "default": 0 },
-		"mediaUrl": { "type": "string", "default": "" } 
+		"mediaUrl": { "type": "string", "default": "/wp-content/plugins/dynamic-hero-block/images/def-bg.webp" } 
 	}			
 }

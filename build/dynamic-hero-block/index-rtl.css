@@ -1,1 +1,28 @@
-.wp-block-create-block-dynamic-hero-block .inner{max-width:100%}.wp-block-create-block-dynamic-hero-block .dphb-group{align-items:flex-start;display:flex;flex-direction:column;justify-content:center}.image-picker-container img{max-width:100%}.image-picker-container .link{margin-right:10px}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/dynamic-hero-block/editor.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-dynamic-hero-block {
+  background: url(../images/def-bg.855dbb68.webp) no-repeat center/cover;
+}
+.wp-block-create-block-dynamic-hero-block .inner {
+  max-width: 100%;
+}
+.wp-block-create-block-dynamic-hero-block .dphb-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image-picker-container img {
+  max-width: 100%;
+}
+
+.image-picker-container .link {
+  margin-right: 10px;
+}

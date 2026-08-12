@@ -1,3 +1,4 @@
+const prefix = 'dhb';
 var $jx = jQuery.noConflict();
 
 $jx(document).ready(function(){

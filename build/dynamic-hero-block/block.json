@@ -48,7 +48,7 @@
     },
     "mediaUrl": {
       "type": "string",
-      "default": ""
+      "default": "/wp-content/plugins/dynamic-hero-block/images/def-bg.webp"
     }
   }
 }
